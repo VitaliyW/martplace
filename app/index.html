@@ -15,8 +15,10 @@
     <div class="header__top">
       <div class="container">
         <div class="header__inner">
-          <img class="header__logo" src="images/Logo.png" alt="logo">
-          <button class="header__btn">
+          <a class="header__logo-link" href="#">
+            <img class="header__logo" src="images/Logo.png" alt="logo">
+          </a>
+          <button class="header__btn" type="button">
             Become a Seller
           </button>
           <div class="header__icons">
@@ -25,28 +27,90 @@
             <img class="header__icon" src="" alt="im">
           </div>
           <div class="header__profile">
-            <a class="header__avatar-link" href="#">
-              <div class="header__avatar" style="background-image: url(images/avatar.jpg);">
-              </div>
-            </a>
+            <div class="header__avatar">
+              <a class="header__avatar-link" href="#">
+                <img class="header__avatar-img" src="images/avatar.png" alt="">
+              </a>
+            </div>
             <div class="header__text">
-              <a class="header__name-link" href="#">
-                <div class="header__name">
-                  Taofiq Hakim
-                </div>
-              </a>
-              <a class="header__balance-link" href="#">
-                <div class="header__balance">
-                  $20.45
-                </div>
-              </a>
+              <div class="header__name">
+                <a href="" class="header__name-link">Taofiq Hakim</a>
+              </div>
+              <div class="header__balance">
+                <a href="" class="header__balance-link">$20.45</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-
+    <div class="header__bottom">
+      <div class="container">
+        <div class="header__bottom-inner">
+          <nav class="header__menu">
+            <ul class="header__list">
+              <li class="header__list-item">
+                <a class="header__link" href="#">home</a>
+              </li>
+              <li class="header__list-item">
+                <a class="header__link" href="#">all products</a>
+              </li>
+              <li class="header__list-item">
+                <a class="header__link" href="#">wordpress</a>
+              </li>
+              <li class="header__list-item">
+                <a class="header__link" href="#">features</a>
+              </li>
+              <li class="header__list-item">
+                <a class="header__link" href="#">pages</a>
+              </li>
+            </ul>
+          </nav>
+          <form class="header__form" action="">
+            <input class="header__search" type="text" placeholder="Search product here...">
+            <button class="header__search-btn" type="search">Search</button>
+          </form>
+          
+        </div>
+      </div>
+    </div>
   </header>
+
+  <section class="search">
+    <div class="container">
+      <div class="search__inner">
+        <div class="search__title">
+          Create Your Own
+          <span class="search__title--bold">Digital Product Marketplace</span>
+        </div>
+        <div class="search__text">
+          MartPlace is the most powerful, & customizable template for Easy Digital Downloads Products
+        </div>
+        <button type="button" class="search__btn">View All Products</button>
+        <button type="button" class="search__btn">Popular Products</button>
+        <form class="search__form">
+          <div class="search__form-inner">
+            <input class="search__search" type="text" placeholder="Search your products...">
+            <select class="search__options" name="">
+              <option class="header__category" value="All Categories">All Categories</option>
+              <option value="WordPress">WordPress</option>
+              <option value="PSD">PSD</option>
+              <option value="Plugins">Plugins</option>
+            </select>
+          </div>
+          <button class="search__search-btn">
+            Search Now
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="container">
+      
+    </div>
+  </section>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="libs.js"></script>
