@@ -15,4 +15,6 @@ $(function(){
     ratedFill: "#ffc000"
   });
 
+  var mixer = mixitup('.products__inner');
+
 });
