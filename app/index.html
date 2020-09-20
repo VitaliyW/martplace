@@ -20,9 +20,9 @@
             Become a Seller
           </button>
           <div class="header__icons">
-            <img class="header__icon" src="" alt="im">
-            <img class="header__icon" src="" alt="im">
-            <img class="header__icon" src="" alt="im">
+            <div class="header__icon"><a class="header__icon-link" href="#" ></a></div>
+            <div class="header__icon"><a class="header__icon-link header__icon-link--middle" href="#"></a></div>
+            <div class="header__icon"><a class="header__icon-link header__icon-link--right" href="#" ></a></div>
           </div>
           <div class="header__profile">
             <div class="header__avatar">
@@ -86,15 +86,13 @@
         <button type="button" class="search__btn">View All Products</button>
         <button type="button" class="search__btn">Popular Products</button>
         <form class="search__form">
-          <div class="search__form-inner">
-            <input class="search__search" type="text" placeholder="Search your products...">
-            <select class="search__options" name="">
-              <option class="header__category" value="All Categories">All Categories</option>
-              <option value="WordPress">WordPress</option>
-              <option value="PSD">PSD</option>
-              <option value="Plugins">Plugins</option>
-            </select>
-          </div>
+          <input class="search__search" type="text" placeholder="Search your products...">
+          <select class="search__options" name="">
+            <option class="header__category" value="All Categories">All Categories</option>
+            <option value="WordPress">WordPress</option>
+            <option value="PSD">PSD</option>
+            <option value="Plugins">Plugins</option>
+          </select>
           <button class="search__search-btn">
             Search Now
           </button>
@@ -149,33 +147,100 @@
         <div class="products-slider__title">
           Weekly Featured Products
         </div>
+        <div class="products-slider__btn"></div>
       </div>
       <div class="products-slider__slider-inner">
         <div class="products-slider__item">
           <img class="products-slider__img" src="images/content/slider-img.jpg" alt="img" >
-          <div class="products-slider__content">
-            <div class="products-slider__heading">
-              One Page Resume Template
+          <div class="products-slider__wrapper">
+            <div class="products-slider__content">
+              <div class="products-slider__heading">
+                One Page Resume Template
+              </div>
+              <div class="products-slider__info">
+                <img class="products-slider__avatar" src="images/content/slider-avatar.jpg" alt="avatar">
+                <span class="products-slider__name">AazzTech</span>
+                <span class="products-slider__category">WordPress</span>
+              </div>
+              <p class="products-slider__text">
+                Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam aliquet congue justo ut scelerisque.
+              </p>
+              <div class="products-slider__types">
+                <a class="products-slider__type" href="#">website</a>
+                <a class="products-slider__type" href="#">plugin</a>
+                <a class="products-slider__type" href="#">landing page</a>
+              </div>
+              <div class="products-slider__feedback">
+                <a class="products-slider__price" href="#">$10 - $50</a>
+                <a class="products-slider__likes" href="#">46</a>
+                <a class="products-slider__number" href="#">634</a>
+                <div class="products__item-star">
+                  <div class="rate-star"></div>
+                </div>
+              </div>
             </div>
-            <div class="products-slider__info">
-              <img class="products-slider__avatar" src="images/content/slider-avatar.jpg" alt="avatar">
-              <span class="products-slider__name">AazzTech</span>
-              <span class="products-slider__category">WordPress</span>
+          </div>
+        </div>
+
+        <div class="products-slider__item">
+          <img class="products-slider__img" src="images/content/slider-img.jpg" alt="img" >
+          <div class="products-slider__wrapper">
+            <div class="products-slider__content">
+              <div class="products-slider__heading">
+                One Page Resume Template
+              </div>
+              <div class="products-slider__info">
+                <img class="products-slider__avatar" src="images/content/slider-avatar.jpg" alt="avatar">
+                <span class="products-slider__name">AazzTech</span>
+                <span class="products-slider__category">WordPress</span>
+              </div>
+              <p class="products-slider__text">
+                Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam aliquet congue justo ut scelerisque.
+              </p>
+              <div class="products-slider__types">
+                <a class="products-slider__type" href="#">website</a>
+                <a class="products-slider__type" href="#">plugin</a>
+                <a class="products-slider__type" href="#">landing page</a>
+              </div>
+              <div class="products-slider__feedback">
+                <a class="products-slider__price" href="#">$10 - $50</a>
+                <a class="products-slider__likes" href="#">47</a>
+                <a class="products-slider__number" href="#">634</a>
+                <div class="products__item-star">
+                  <div class="rate-star"></div>
+                </div>
+              </div>
             </div>
-            <p class="products-slider__text">
-              Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam aliquet congue justo ut scelerisque.
-            </p>
-            <div class="products-slider__types">
-              <a class="products-slider__type" href="#">website</a>
-              <a class="products-slider__type" href="#">plugin</a>
-              <a class="products-slider__type" href="#">landing page</a>
-            </div>
-            <div class="products-slider__feedback">
-              <a class="products-slider__price" href="#">$10 - $50</a>
-              <a class="products-slider__likes" href="#">46</a>
-              <a class="products-slider__number" href="#">634</a>
-              <div class="products__item-star">
-                (05)
+          </div>
+        </div>
+
+        <div class="products-slider__item">
+          <img class="products-slider__img" src="images/content/slider-img.jpg" alt="img" >
+          <div class="products-slider__wrapper">
+            <div class="products-slider__content">
+              <div class="products-slider__heading">
+                One Page Resume Template
+              </div>
+              <div class="products-slider__info">
+                <img class="products-slider__avatar" src="images/content/slider-avatar.jpg" alt="avatar">
+                <span class="products-slider__name">AazzTech</span>
+                <span class="products-slider__category">WordPress</span>
+              </div>
+              <p class="products-slider__text">
+                Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam aliquet congue justo ut scelerisque.
+              </p>
+              <div class="products-slider__types">
+                <a class="products-slider__type" href="#">website</a>
+                <a class="products-slider__type" href="#">plugin</a>
+                <a class="products-slider__type" href="#">landing page</a>
+              </div>
+              <div class="products-slider__feedback">
+                <a class="products-slider__price" href="#">$10 - $50</a>
+                <a class="products-slider__likes" href="#">48</a>
+                <a class="products-slider__number" href="#">634</a>
+                <div class="products__item-star">
+                  <div class="rate-star"></div>
+                </div>
               </div>
             </div>
           </div>
@@ -185,9 +250,10 @@
     </div>
   </section>
 
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="libs.js"></script>
-  <script src="js/main.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
