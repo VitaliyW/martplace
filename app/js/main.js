@@ -18,3 +18,7 @@ $(function(){
   var mixer = mixitup('.products__inner');
 
 });
+
+$('.products__filter-btn').on('click', function(){
+  $('.products__dropdown').slideToggle();
+});
