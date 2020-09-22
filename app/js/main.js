@@ -2,6 +2,16 @@ $(function(){
   $('.products-slider__slider-inner').slick({
     arrows: true,
     dots: false,
+    variableWidth: true,
+    prevArrow: '<button type="button" class="lnr-chevron-left"></button>',
+    nextArrow: '<button type="button" class="lnr-chevron-right"></button>'
+  });
+
+  $('.followers__slider-inner').slick({
+    arrows: true,
+    dots: false,
+    slidesToShow: 3,
+    variableWidth: true,
     prevArrow: '<button type="button" class="lnr-chevron-left"></button>',
     nextArrow: '<button type="button" class="lnr-chevron-right"></button>'
   });
