@@ -1655,6 +1655,11 @@
   padding-bottom: 120px;
   background-color: #eff1f5;
 
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
   &__item {
     display: inline-block;
     border-radius: 4px;
@@ -1686,6 +1691,7 @@
     line-height: 30px;
     margin-top: 18px;
     margin-bottom: 22px;
+    font-weight: 500;
   }
 
   &__date {
@@ -1710,22 +1716,35 @@
 
   &__comments,
   &__views {
+    position: relative;
     color: #999999;
     font-size: 15px;
     padding-left: 24px;
+    font-weight: 500;
 
     &::before {
       position: absolute;
       content: '\e83f';
-      left: 0px;
+      left: 0;
+      top: 0;
       font-size: 15px;
-      color: $blue;
+      color: #999999;
       font-family: 'Linearicons-Free';
     }
   }
 
   &__comments {
     margin-left: 21px;
+    transition: all .5s;
+
+    &:hover {
+      text-shadow: 1px 1px 2px #313133;
+    }
+
+    &:focus {
+      outline: transparent;
+      box-shadow: 0px 0px 0px 5px rgb(138, 191, 235);
+    }
   }
 
   &__views {
@@ -1741,7 +1760,82 @@
 
 // start advantages
 
+.advantages {
+  &__inner {
+    display: flex;
+  }
+
+  &__item {
+    text-align: center;
+    max-width: 572px;
+    width: 100%;
+  }
+
+  &__item--border {
+    border-right: 1px solid #e8eaf3;
+  }
+
+  &__text {
+    display: inline-block;
+    position: relative;
+    padding: 210px 0 60px;
+    font-size: 24px;
+    color: #000;
+    font-weight: 500;
+
+    &::before {
+      position: absolute;
+      top: 63px;
+      left: 104px;
+      content: '';
+      background-image: url(../images/icons/money.jpg);
+      width: 150px;
+      height: 120px;
+    }
+  }
+
+  &__text--support::before {
+    background-image: url(../images/icons/support.jpg);
+    width: 155px;
+    height: 117px;
+    left: 64px;
+  }
+
+  &__link {
+    font-size: 24px;
+    color: $blue;
+    font-weight: 500;
+    transition: all .5s;
+
+    &:hover {
+      color: #1d36a5;
+      text-shadow: 1px 1px 2px #241157;
+    }
+
+    &:focus {
+      outline: transparent;
+      box-shadow: 0px 0px 0px 5px rgb(138, 191, 235);
+    }
+
+    &:active {
+      color: #676474;
+    }
+  }
+
+  &__link--purple {
+    color: $purple;
+
+    &:hover {
+      color: #721275;
+    }
+  }
+}
 
 // end advantages
+
+// start join
+
+
+// end join
 
 
