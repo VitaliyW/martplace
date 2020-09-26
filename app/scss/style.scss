@@ -1348,6 +1348,7 @@
     font-size: 36px;
     color: #000;
     margin-bottom: 25px;
+    margin-top: 0;
   }
 
   &__title--blue {
@@ -1555,5 +1556,192 @@
 
 
 // end reasons
+
+// start feedback
+
+.feedback {
+  padding: 115px 0;
+  text-align: center;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 41px;
+  }
+
+  &__item {
+    text-align: left;
+    padding: 50px 37px 37px;
+    box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
+    border-radius: 0 4px 4px 0;
+    border-left: 2px solid $blue;
+  }
+
+  &__item--left {
+    margin-right: 29px;
+  }
+
+  &__item-top {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+
+    &::after {
+      position: absolute;
+      content: '\e83f';
+      top: 0;
+      right: 0;
+      color: #e8e8e8;
+      font-size: 60px;
+      font-family: 'Linearicons-Free';
+    }
+  }
+
+  &__avatar {
+    border-radius: 50%;
+    margin-right: 19px;
+  }
+
+  &__name {
+    display: block;
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 12px;
+  }
+
+  &__status {
+    display: inline-block;
+    font-weight: 500;
+  }
+
+  &__item-text {
+    line-height: 30px;
+    font-weight: 500;
+  }
+
+  &__btn {
+    padding: 20px 40px;
+    display: inline-block;
+    color: #fff;
+    background-color: $blue;
+    border-radius: 40px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
+    transition: all .5s;
+
+    &:hover {
+      background-color: rgb(52, 42, 189);
+      color: #fff;
+    }
+  
+    &:focus {
+      outline: transparent;
+      box-shadow: 0px 0px 0px 5px rgb(138, 191, 235);
+    }
+  
+    &:active {
+      box-shadow: inset 0px 7px 5px 0px rgba(36, 36, 68, 0.62);
+    }
+  }
+}
+
+// end feedback
+
+// start news
+
+.news {
+  padding-bottom: 120px;
+  background-color: #eff1f5;
+
+  &__item {
+    display: inline-block;
+    border-radius: 4px;
+    max-width: 361px;
+    background-color: #fff;
+  }
+
+  &__content {
+    box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
+  }
+
+  &__top {
+    padding: 0 29px;
+    border-bottom: 1px solid #ececec;
+  }
+
+  span {
+    display: inline-block;
+  }
+
+  &__title {
+    color: #000;
+    font-size: 22px;
+    margin-top: 25px;
+    font-weight: 700;
+  }
+
+  &__text {
+    line-height: 30px;
+    margin-top: 18px;
+    margin-bottom: 22px;
+  }
+
+  &__date {
+    display: inline-block;
+    position: relative;
+    border-right: 1px solid #ececec;
+    color: #999999;
+    font-size: 15px;
+    padding: 10px 52px 10px 53px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+
+    &::before {
+      position: absolute;
+      content: '\e864';
+      left: 29px;
+      font-size: 15px;
+      color: $blue;
+      font-family: 'Linearicons-Free';
+    }
+  }
+
+  &__comments,
+  &__views {
+    color: #999999;
+    font-size: 15px;
+    padding-left: 24px;
+
+    &::before {
+      position: absolute;
+      content: '\e83f';
+      left: 0px;
+      font-size: 15px;
+      color: $blue;
+      font-family: 'Linearicons-Free';
+    }
+  }
+
+  &__comments {
+    margin-left: 21px;
+  }
+
+  &__views {
+    margin-left: 27px;
+
+    &::before {
+      content: '\e81b';
+    }
+  }
+}
+
+// end news
+
+// start advantages
+
+
+// end advantages
 
 
