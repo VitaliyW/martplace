@@ -23,6 +23,7 @@
     margin-left: 7px;
     margin-right: 367px;
     transition: all .5s;
+
     &:focus {
       outline: transparent;
       box-shadow: 0px 0px 0px 5px rgb(138, 191, 235);
@@ -522,7 +523,7 @@
 // start features
 
 .features {
-  padding-bottom: 70px;
+  padding-bottom: 125px;
 
   &__inner {
     display: flex;
@@ -533,8 +534,8 @@
   &__item {
     position: relative;
     text-align: center;
-    max-width: 363px;
-    padding: 0 33px 46px  47px;
+    max-width: 377px;
+    padding: 0 33px 25px  47px;
     transition: all .5s;
     font-weight: 500;
 
@@ -568,8 +569,8 @@
   &__title {
     font-size: 24px;
     color: #000;
-    padding-top: 194px;
-    margin-bottom: 20px;
+    padding-top: 191px;
+    margin-bottom: 21px;
   }
   
   &__text {
@@ -585,7 +586,7 @@
 
 .products-slider {
   background-color: #eff1f5;
-  padding: 114px 0;
+  padding: 116px 0;
 }
 
 .products-slider__top,
@@ -670,9 +671,10 @@
   z-index: 5;
   bottom: 0;
   right: 0;
-  padding: 49px 50px 24px;
+  padding: 49px 39px 24px 50px;
   background-color: #fff;
   max-width: 587px;
+  width: 100%;
   height: 450px;
 
   & span {
@@ -693,7 +695,7 @@
 .products-slider__heading {
   font-size: 24px;
   color: #000;
-  margin-bottom: 14px;
+  margin-bottom: 11px;
   font-weight: 700;
 }
 
@@ -743,6 +745,7 @@
 .products-slider__text {
   font-weight: 500;
   line-height: 30px;
+  margin-top: 26px;
   margin-bottom: 35px;
   max-width: 485px;
   max-height: 140px;
@@ -788,7 +791,7 @@
   justify-content: flex-start;
   align-items: center;
   border-top: 1px solid #ececec;
-  padding: 26px 0;
+  padding: 21px 0;
 }
 
 .products-slider__price {
@@ -831,7 +834,7 @@
 .followers__item-number {
   position: relative;
   padding-left: 23px;
-  margin-right: 151px;
+  margin-right: 163px;
   font-size: 15px;
   font-weight: 700;
   color: $blue;
@@ -861,7 +864,7 @@
 
 .products {
   background-color: #f6f7fb;
-  padding: 125px 0;
+  padding: 118px 0;
   text-align: center;
 
   &__top {
@@ -1057,7 +1060,7 @@
   background-color: #fff;
   border-radius: 5px;
   padding: 0 31px;
-  margin-bottom: 50px;
+  margin-bottom: 52px;
 
   li + li {
     margin-left: 11px;
@@ -1092,8 +1095,6 @@
     box-shadow: inset 0px 7px 5px 0px rgba(19, 19, 97, 0.62);
   }
 }
-
-
 
 .products__inner {
   text-align: left;
@@ -1132,7 +1133,7 @@
 
 .products__item-info,
 .followers__item-info {
-  margin-bottom: 21px;
+  margin-bottom: 25px;
   align-items: center;
 }
 
@@ -1166,7 +1167,7 @@
 
 .products__item-paragraph,
 .followers__item-paragraph {
-  line-height: 29px;
+  line-height: 30px;
   font-weight: 500;
   max-width: 305px;
   max-height: 107px;
@@ -1176,7 +1177,7 @@
 
 .products__item-feedback,
 .followers__item-feedback {
-  padding: 15px 0;
+  padding: 14px 0;
   display: flex;
   justify-content: space-between;
 }
@@ -1212,7 +1213,7 @@
   padding: 20px 33px;
   border: none;
   border-radius: 30px;
-  margin-top: 30px;
+  margin-top: 23px;
   cursor: pointer;
   transition: all .5s;
 
@@ -1338,7 +1339,7 @@
 // start reasons
 
 .reasons {
-  padding: 114px 0 90px;
+  padding: 111px 0 90px;
 
   &__inner {
     display: flex;
@@ -1348,7 +1349,7 @@
 
   &__item {
     position: relative;
-    padding: 58px 28px;
+    padding: 55px 28px;
     max-width: 360px;
     width: 100%;
     height: 372px;
@@ -1398,8 +1399,8 @@
       position: absolute;
       font-family: 'Linearicons-Free';
       font-size: 60px;
-      top: 0;
-      left: 0;
+      top: -11px;
+      left: 4px;
       right: 0;
       margin: 0 auto;
       color: $blue;
@@ -1450,9 +1451,9 @@
 
   &__title {
     font-size: 36px;
-    line-height: 38px;
+    line-height: 42px;
     color: #000;
-    margin-bottom: 14px;
+    margin-bottom: 10px;
   }
 
   &__title--blue {
@@ -1461,7 +1462,7 @@
   }
 
   &__text {
-    line-height: 27px;
+    line-height: 30px;
   }
 }
 
@@ -1517,7 +1518,7 @@
     max-width: 595px;
     color: #fff;
     line-height: 27px;
-    margin-bottom: 38px;
+    margin-bottom: 41px;
   }
 
   &__shopping {
@@ -1530,7 +1531,7 @@
     display: inline-block;
     color: $blue;
     background-color: #fff;
-    padding: 20px 0px;
+    padding: 19px 0px;
     width: 194px;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
     border-radius: 40px;
@@ -1567,18 +1568,18 @@
 // start feedback
 
 .feedback {
-  padding: 115px 0;
+  padding: 113px 0;
   text-align: center;
 
   &__inner {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 62px;
+    margin-bottom: 59px;
   }
 
   &__item {
     text-align: left;
-    padding: 50px 37px 37px;
+    padding: 47px 37px 48px 37px;
     box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
     border-radius: 0 4px 4px 0;
     border-left: 2px solid $blue;
@@ -1697,7 +1698,7 @@
 
   &__text {
     line-height: 30px;
-    margin-top: 18px;
+    margin-top: 22px;
     margin-bottom: 22px;
     font-weight: 500;
   }
@@ -1864,7 +1865,7 @@
     font-size: 18px;
     line-height: 20px;
     margin: 0;
-    margin-bottom: 48px;
+    margin-bottom: 45px;
   }
 
   &__link {
@@ -1895,6 +1896,322 @@
 
 // start footer
 
+.footer {
+  background-color: #262b30;
+  color: #ababab;
+
+  a {
+    display: inline-block;
+    color: #ababab;
+    font-style: normal;
+    font-size: 15px;
+  }
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 113px;
+    padding-bottom: 120px;
+  }
+
+  &__item {
+    max-width: 251px;
+  }
+
+  &__logo-link {
+    transition: all .5s;
+    
+    &:focus {
+      outline: transparent;
+      box-shadow: 0px 0px 0px 5px rgb(155, 173, 185);
+    }
+  }
+
+  &__item--second {
+    max-width: 123px;
+    width: 100%;
+  }
+
+  &__item--third {
+    max-width: 137px;
+    width: 100%;
+  }
+
+  &__item--fourth {
+    max-width: 359px;
+
+    .footer__paragraph {
+      margin-bottom: 9px;
+    }
+  }
+
+  &__phone,
+  &__email,
+  &__address {
+    position: relative;
+    padding-left: 30px;
+    font-size: 15px;
+    transition: all .5s;
+
+    &::before {
+      content: '\e830';
+      position: absolute;
+      left: 0;
+      top: 0;
+      font-size: 16px;
+      color: #fff;
+      font-family: 'Linearicons-Free';
+    }
+
+    &:hover {
+      text-shadow: 1px 1px 2px #ffffff;
+    }
+  
+    &:focus {
+      outline: transparent;
+      box-shadow: 0px 0px 0px 5px rgb(155, 173, 185);
+    }
+  
+    &:active {
+      color: #807d7d;
+      text-shadow: none;
+    }
+  }
+
+  &__contacts .footer__email {
+    display: block;
+    margin-bottom: 13px;
+
+    &::before {
+      content: '\e818';
+    }
+  }
+
+  &__address {
+    display: block;
+    font-style: normal;
+    line-height: 26px;
+
+    &::before {
+      content: '\e833';
+      top: 16px;
+    }
+  }
+
+  &__logo {
+    margin-bottom: 22px;
+  }
+
+  &__paragraph {
+    line-height: 28px;
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 23px;
+  }
+
+  &__phone {
+    margin-bottom: 16px;
+  }
+
+  &__title {
+    display: inline-block;
+    color: #fff; 
+    font-size: 18px;
+    padding-top: 16px;
+    margin-bottom: 32px;
+  }
+
+  &__list {
+    padding-left: 0;
+    margin: 0;
+
+    li {
+      margin-bottom: 14px;
+    }
+  }
+
+  &__list-item {
+    display: block;
+
+    a {
+      transition: all .5s;
+
+      &:hover {
+        text-shadow: 1px 1px 2px #ffffff;
+      }
+    
+      &:focus {
+        outline: transparent;
+        box-shadow: 0px 0px 0px 5px rgb(155, 173, 185);
+      }
+    
+      &:active {
+        color: #807d7d;
+        text-shadow: none;
+      }
+    }
+  }
+
+  &__form {
+    position: relative;
+    margin-bottom: 48px;
+  }
+
+  &__label-text {
+    font-size: 0;
+  }
+
+  &__email-input {
+    width: 364px;
+    width: 100%;
+    height: 50px;
+    border-radius: 40px;
+    padding: 0px 130px 0px 30px;
+    border: none;
+    transition: all .5s;
+
+    &::placeholder {
+      color: #ababab;
+      font-size: 15px;
+    }
+
+    &:focus {
+      outline: transparent;
+      background-color: rgb(165, 198, 252);
+    }
+  
+    &:active {
+      color: #1338c1;
+    }
+  }
+
+  &__btn {
+    position: absolute;
+    top: 18px;
+    right: -1px;
+    background-color: $blue;
+    color: #fff;
+    width: 110px;
+    padding: 16px 0;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgb(39, 99, 160);
+    }
+
+    &:focus {
+      outline: transparent;
+      box-shadow: 0px 0px 0px 5px rgb(138, 191, 235);
+    }
+
+    &:active {
+      box-shadow: inset 0px 7px 5px 0px rgba(19, 19, 97, 0.62);
+    }
+  }
+
+  &__social {
+    a + a {
+      margin-left: 9px;
+    }
+  }
+
+  &__icon {
+    text-align: center;
+    width: 42px;
+    height: 42px;
+    padding-top: 13px;
+    border-radius: 50%;
+    transition: all .5s;
+
+    &:hover {
+      text-shadow: 1px 1px 2px #ffffff;
+    }
+  
+    &:focus {
+      outline: transparent;
+      box-shadow: 0px 0px 0px 5px rgb(155, 173, 185);
+    }
+  }
+
+  .icon-facebook {
+    color: #fff;
+    background-color: #395799;
+
+    &:hover {
+      background-color: #1d3b7c;
+    }
+  }
+
+  .icon-twitter {
+    background-color: #19b2f5;
+    color: #fff;
+
+    &:hover {
+      background-color: #1175a0;
+    }
+  }
+
+  .icon-google {
+    background-color: #f05b44;
+    color: #fff;
+
+    &:hover {
+      background-color: #8d3225;
+    }
+  }
+
+  .icon-pinterest {
+    background-color: #9c0c1c;
+    color: #fff;
+
+    &:hover {
+      background-color: #5a0d16;
+    }
+  }
+
+  .icon-linkedin {
+    background-color: #0da6be;
+    color: #fff;
+
+    &:hover {
+      background-color: #135b66;
+    }
+  }
+
+  .icon-dribbble {
+    background-color: #ea4c89;
+    color: #fff;
+
+    &:hover {
+      background-color: #7a2847;
+    }
+  }
+
+  &__copy {
+    background-color: #192027;
+    padding: 39px 0;
+    font-size: 15px;
+    color: #999999;
+    text-align: center;
+
+    .footer__copy-link {
+      color: #fff;
+      font-size: 15px;
+      transition: all .5s;
+
+      &:hover {
+        text-shadow: 1px 1px 2px #ffffff;
+      }
+    
+      &:focus {
+        outline: transparent;
+        box-shadow: 0px 0px 0px 5px rgb(155, 173, 185);
+      }
+    }
+  }
+}
 
 // end footer
 
